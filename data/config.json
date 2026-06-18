@@ -1,0 +1,9 @@
+{
+  "function_name": "xxx",
+  "timeout": 30,
+  "memory_size": 128,
+  "handler": "bootstrap",
+  "runtime": "http", 
+  "enable_auth_in_header": true
+
+}

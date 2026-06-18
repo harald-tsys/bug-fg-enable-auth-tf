@@ -44,3 +44,10 @@ resource "opentelekomcloud_fgs_function_v2" "fg_sample" {
 
 }
 
+output "function_name" {
+  value = opentelekomcloud_fgs_function_v2.fg_sample.name
+}
+
+output "function_urn" {
+  value = opentelekomcloud_fgs_function_v2.fg_sample.urn
+}
